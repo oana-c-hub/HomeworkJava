@@ -43,18 +43,18 @@ public class homework2 {
 
         //4. Write a Java program that uses both the increment (++) and decrement (--) operators in a loop to count up to 10 and then back down to 1.
 
-//        System.out.println("Increment:");
-//        for (int k = 1; k <= 10; k++) {
-//                    System.out.print(k + " ");
-//                }
-//
-//                System.out.println();
-//
-//        System.out.println("Decrement:");
-//                for (int k = 10; k >= 1; k--) {
-//                    System.out.print(k + " ");
-//                }
-//        System.out.println("");
+        System.out.println("Increment:");
+        for (int k = 1; k <= 10; k++) {
+                    System.out.print(k + " ");
+                }
+
+                System.out.println();
+
+        System.out.println("Decrement:");
+                for (int k = 10; k >= 1; k--) {
+                    System.out.print(k + " ");
+                }
+        System.out.println("");
 
         // 5. Create a Java program that demonstrates the use of each compound assignment operator with integers.
 
@@ -95,35 +95,35 @@ public class homework2 {
         e1 %= 3; // equivalent to e1 = a1 % 3
         System.out.println("e1 %= 3 rezulta: " + e1);
 
-//        // &= operator (bitwise AND)
-//        f1 = 10;       // 1010 in binary
-//        f1 &= 6;       // 0110 in binary, result is 0010 (2)
-//        System.out.println("f1 &= 6 rezulta " + f1);
+        // &= operator (bitwise AND)
+        f1 = 10;       // 1010 in binary
+        f1 &= 6;       // 0110 in binary, result is 0010 (2)
+        System.out.println("f1 &= 6 rezulta " + f1);
 
-//        // |= operator (bitwise OR)
-//        g1 = 10;       // 1010 in binary
-//        g1 |= 3;       // 0011 in binary, result is 1011 (11)
-//        System.out.println("g1 |= 3 rezulta:  " + g1);
+        // |= operator (bitwise OR)
+        g1 = 10;       // 1010 in binary
+        g1 |= 3;       // 0011 in binary, result is 1011 (11)
+        System.out.println("g1 |= 3 rezulta:  " + g1);
 
-//        // ^= operator (bitwise XOR)
-//        h1 = 10;       // 1010
-//        h1 ^= 7;       // 0111, result is 1101 (13)
-//        System.out.println("h1 ^= 7 rezulta " + h1);
+        // ^= operator (bitwise XOR)
+        h1 = 10;       // 1010
+        h1 ^= 7;       // 0111, result is 1101 (13)
+        System.out.println("h1 ^= 7 rezulta " + h1);
 
-//        // <<= operator (left shift)
-//        g1 = 5;        // 0101
-//        g1 <<= 2;      // shifts left by 2 bits: 010100 (20)
-//        System.out.println("g1 <<= 2 rezulta: " + g1);
+        // <<= operator (left shift)
+        g1 = 5;        // 0101
+        g1 <<= 2;      // shifts left by 2 bits: 010100 (20)
+        System.out.println("g1 <<= 2 rezulta: " + g1);
 
-//        // >>= operator (right shift)
-//        h1 = 20;       // 10100
-//        h1 >>= 2;      // shifts right by 2 bits: 00101 (5)
-//        System.out.println("h1 >>= 2 rezulta:  " + h1);
+        // >>= operator (right shift)
+        h1 = 20;       // 10100
+        h1 >>= 2;      // shifts right by 2 bits: 00101 (5)
+        System.out.println("h1 >>= 2 rezulta:  " + h1);
 
-//        // >>>= operator (unsigned right shift)
-//        l1 = -20;
-//        l1 >>>= 2;
-//        System.out.println("l1 >>>= 2 rezulta:  " + l1); // Shows large positive value due to unsigned shift
+        // >>>= operator (unsigned right shift)
+        l1 = -20;
+        l1 >>>= 2;
+        System.out.println("l1 >>>= 2 rezulta:  " + l1); // Shows large positive value due to unsigned shift
 
 //        Compound assignment operators:
 //        | Operator | Description                     | Equivalent To         |         |     |
@@ -142,24 +142,24 @@ public class homework2 {
 
         // 6. Write a Java program that takes two numbers from the user and uses relational operators to display whether the first number is greater than, less than, or equal to the second number.
 
-//                Scanner scanner = new Scanner(System.in);
-//
-//                // Input two numbers
-//                System.out.print("Enter the first number: ");
-//                int num1 = scanner.nextInt();
-//
-//                System.out.print("Enter the second number: ");
-//                int num2 = scanner.nextInt();
-//
-//                // Compare using relational operators
-//                if (num1 > num2) {
-//                    System.out.println("The first number is greater than the second number.");
-//                } else if (num1 < num2) {
-//                    System.out.println("The first number is less than the second number.");
-//                } else { // num1 == num2
-//                    System.out.println("The first number is equal to the second number.");
-//                }
-//
+                Scanner scanner = new Scanner(System.in);
+
+                // Input two numbers
+                System.out.print("Enter the first number: ");
+                int num1 = scanner.nextInt();
+
+                System.out.print("Enter the second number: ");
+                int num2 = scanner.nextInt();
+
+                // Compare using relational operators
+                if (num1 > num2) {
+                    System.out.println("The first number is greater than the second number.");
+                } else if (num1 < num2) {
+                    System.out.println("The first number is less than the second number.");
+                } else { // num1 == num2
+                    System.out.println("The first number is equal to the second number.");
+                }
+
 //                scanner.close();
 
 //        // 7. Write a program where you perform operations between an integer and a double. Display the result.
@@ -190,20 +190,20 @@ public class homework2 {
         // 8. Create a program that takes two byte values, adds them together, and stores the result in a byte variable.
 
 //                Scanner scanner = new Scanner(System.in);
-//
-//                // Read two byte values from user
-//                System.out.print("Enter the first byte value: ");
-//                byte byte1 = scanner.nextByte();
-//
-//                System.out.print("Enter the second byte value: ");
-//                byte byte2 = scanner.nextByte();
-//
-//                // Add and cast the result back to byte
-//                byte result = (byte) (byte1 + byte2);
-//
-//                // Display the result
-//                System.out.println("Sum of the two byte values: " + result);
-//
+
+                // Read two byte values from user
+                System.out.print("Enter the first byte value: ");
+                byte byte1 = scanner.nextByte();
+
+                System.out.print("Enter the second byte value: ");
+                byte byte2 = scanner.nextByte();
+
+                // Add and cast the result back to byte
+                byte result = (byte) (byte1 + byte2);
+
+                // Display the result
+                System.out.println("Sum of the two byte values: " + result);
+
 //                scanner.close();
 
         // 9. Write a program that calculates the area of a rectangle. Take the length and breadth as inputs.
@@ -617,29 +617,27 @@ public class homework2 {
                 double doubleValue = 3.5;
 
                 // Arithmetic operation
-                double result = intValue + doubleValue;
+                double resultfinal = intValue + doubleValue;
 
                 // Output the result
-                System.out.println("int + double = " + result);
+                System.out.println("int + double = " + resultfinal);
 
         //Create a program that takes two byte values, adds them together, and stores the result in a byte variable. Explain why the result is or is not what you'd expect, based on the rules of numeric promotion.
 
 //                Scanner scanner = new Scanner(System.in);
-//
-//                // Read two byte values
-//                System.out.print("Enter first byte value: ");
-//                byte byte1 = scanner.nextByte();
-//
-//                System.out.print("Enter second byte value: ");
-//                byte byte2 = scanner.nextByte();
-//
-//                // Add and cast result back to byte
-//                byte sum = (byte) (byte1 + byte2);  // Explicit cast required!
-//
-//                System.out.println("Sum (as byte): " + sum);
-//
+
+                // Read two byte values
+                System.out.print("Enter first byte value: ");
+                byte byte10 = scanner.nextByte();
+
+                System.out.print("Enter second byte value: ");
+                byte byte20 = scanner.nextByte();
+
+                // Add and cast result back to byte
+                byte sumfinal = (byte) (byte10 + byte20);  // Explicit cast required!
+
+                System.out.println("Sum (as byte): " + sumfinal);
+
 //                scanner.close();
-//
-//
     }
 }

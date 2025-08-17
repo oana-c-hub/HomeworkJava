@@ -55,23 +55,22 @@ public class homework1 {
 
         //Question: how to write the program to allow the user to enter numbers?
         //Chatgpt results:
-//        Scanner scanner = new Scanner(System.in);
-//
-//        // Ask user for two numbers
-//        System.out.print("Enter the first number: ");
-//        double number1 = scanner.nextDouble();
-//
-//        System.out.print("Enter the second number: ");
-//        double number2 = scanner.nextDouble();
-//
-//        // Add the numbers
-//        double sum2 = number1 + number2;
-//
-//        // Print the result
-//        System.out.println("The sum of the two numbers is: " + sum2);
-//
-//        scanner.close();
-        //Question: how/where to enter the numbers?
+        Scanner scanner = new Scanner(System.in);
+
+        // Ask user for two numbers
+        System.out.print("Enter the first number: ");
+        double number1 = scanner.nextDouble();
+
+        System.out.print("Enter the second number: ");
+        double number2 = scanner.nextDouble();
+
+        // Add the numbers
+        double sum2 = number1 + number2;
+
+        // Print the result
+        System.out.println("The sum of the two numbers is: " + sum2);
+
+        scanner.close();
 
     }
     }
