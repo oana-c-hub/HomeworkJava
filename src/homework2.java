@@ -209,158 +209,158 @@ public class homework2 {
         // 9. Write a program that calculates the area of a rectangle. Take the length and breadth as inputs.
 
 //                Scanner scanner = new Scanner(System.in);
-//
-//                // Take length and breadth as input
-//                System.out.print("Enter the length of the rectangle: ");
-//                double length = scanner.nextDouble();
-//
-//                System.out.print("Enter the breadth of the rectangle: ");
-//                double breadth = scanner.nextDouble();
-//
-//                // Calculate area
-//                double area = length * breadth;
-//
-//                // Display result
-//                System.out.println("The area of the rectangle is: " + area);
-//
+
+                // Take length and breadth as input
+                System.out.print("Enter the length of the rectangle: ");
+                double length = scanner.nextDouble();
+
+                System.out.print("Enter the breadth of the rectangle: ");
+                double breadth = scanner.nextDouble();
+
+                // Calculate area
+                double area = length * breadth;
+
+                // Display result
+                System.out.println("The area of the rectangle is: " + area);
+
 //                scanner.close();
 
         //10. Write a program that reverses the sign of an entered integer using unary minus operator.
 
 //                Scanner scanner = new Scanner(System.in);
-//
-//                // Take integer input
-//                System.out.print("Enter an integer: ");
-//                int numberx = scanner.nextInt();
-//
-//                // Reverse the sign using unary minus operator
-//                int reversedSign = -numberx;
-//
-//                // Display result
-//                System.out.println("The number with reversed sign is: " + reversedSign);
-//
+
+                // Take integer input
+                System.out.print("Enter an integer: ");
+                int numberx = scanner.nextInt();
+
+                // Reverse the sign using unary minus operator
+                int reversedSign = -numberx;
+
+                // Display result
+                System.out.println("The number with reversed sign is: " + reversedSign);
+
 //                scanner.close();
 
         //11. Write a Java program that takes two boolean inputs from a user. Apply the logical negation operator (!) to each and print the result.
 
 //                Scanner scanner = new Scanner(System.in);
-//
-//                // Take two boolean inputs
-//                System.out.print("Enter the first boolean value (true/false): ");
-//                boolean bool1 = scanner.nextBoolean();
-//
-//                System.out.print("Enter the second boolean value (true/false): ");
-//                boolean bool2 = scanner.nextBoolean();
-//
-//                // Apply logical negation (!)
-//                boolean notBool1 = !bool1;
-//                boolean notBool2 = !bool2;
-//
-//                // Display results
-//                System.out.println("Negation of first boolean: " + notBool1);
-//                System.out.println("Negation of second boolean: " + notBool2);
-//
+
+                // Take two boolean inputs
+                System.out.print("Enter the first boolean value (true/false): ");
+                boolean bool1 = scanner.nextBoolean();
+
+                System.out.print("Enter the second boolean value (true/false): ");
+                boolean bool2 = scanner.nextBoolean();
+
+                // Apply logical negation (!)
+                boolean notBool1 = !bool1;
+                boolean notBool2 = !bool2;
+
+                // Display results
+                System.out.println("Negation of first boolean: " + notBool1);
+                System.out.println("Negation of second boolean: " + notBool2);
+
 //                scanner.close();
 
         //12. Create a program that takes an integer as input and then increments and decrements it by 1, displaying the output at each stage.
 
 //                Scanner scanner = new Scanner(System.in);
-//
-//                // Take integer input
-//                System.out.print("Enter an integer: ");
-//                int numberz = scanner.nextInt();
-//
-//                // Display original number
-//                System.out.println("Original number: " + numberz);
-//
-//                // Increment the number
-//                numberz++; // same as number = number + 1
-//                System.out.println("After increment: " + numberz);
-//
-//                // Decrement the number
-//                numberz--; // same as number = number - 1
-//                System.out.println("After decrement: " + numberz);
-//
+
+                // Take integer input
+                System.out.print("Enter an integer: ");
+                int numberz = scanner.nextInt();
+
+                // Display original number
+                System.out.println("Original number: " + numberz);
+
+                // Increment the number
+                numberz++; // same as number = number + 1
+                System.out.println("After increment: " + numberz);
+
+                // Decrement the number
+                numberz--; // same as number = number - 1
+                System.out.println("After decrement: " + numberz);
+
 //                scanner.close();
 
         //13. Write a program to calculate the price after discount. Take the original price and discount percentage as input. Use compound assignment operator to perform the calculation.
 
 //                Scanner scanner = new Scanner(System.in);
-//
-//                // Take inputs
-//                System.out.print("Enter the original price: ");
-//                double price = scanner.nextDouble();
-//
-//                System.out.print("Enter the discount percentage: ");
-//                double discountPercent = scanner.nextDouble();
-//
-//                // Calculate discount amount
-//                double discountAmount = price * discountPercent / 100;
-//
-//                // Use compound assignment to apply the discount
-//                price -= discountAmount;  // same as: price = price - discountAmount
-//
-//                // Display final price
-//                System.out.println("Price after discount: " + price);
-//
+
+                // Take inputs
+                System.out.print("Enter the original price: ");
+                double price = scanner.nextDouble();
+
+                System.out.print("Enter the discount percentage: ");
+                double discountPercent = scanner.nextDouble();
+
+                // Calculate discount amount
+                double discountAmount = price * discountPercent / 100;
+
+                // Use compound assignment to apply the discount
+                price -= discountAmount;  // same as: price = price - discountAmount
+
+                // Display final price
+                System.out.println("Price after discount: " + price);
+
 //                scanner.close();
 
         //14. Create a program that checks if a user entered number is within a specific range (e.g., 1-100). Use relational operators for the checks.
 
 //                Scanner scanner = new Scanner(System.in);
-//
-//                // Define the range
-//                int lowerBound = 1;
-//                int upperBound = 100;
-//
-//                // Take number input
-//                System.out.print("Enter a number: ");
-//                int numberq = scanner.nextInt();
-//
-//                // Check if number is within the range using relational operators
-//                if (numberq >= lowerBound && numberq <= upperBound) {
-//                    System.out.println("The numberq is within the range of " + lowerBound + " to " + upperBound + ".");
-//                } else {
-//                    System.out.println("The numberq is outside the range of " + lowerBound + " to " + upperBound + ".");
-//                }
-//
+
+                // Define the range
+                int lowerBound = 1;
+                int upperBound = 100;
+
+                // Take number input
+                System.out.print("Enter a number: ");
+                int numberq = scanner.nextInt();
+
+                // Check if number is within the range using relational operators
+                if (numberq >= lowerBound && numberq <= upperBound) {
+                    System.out.println("The numberq is within the range of " + lowerBound + " to " + upperBound + ".");
+                } else {
+                    System.out.println("The numberq is outside the range of " + lowerBound + " to " + upperBound + ".");
+                }
+
 //                scanner.close();
 
         // Challange: Binary Arithmetic Operators:
         // Write a Java program to take two numbers as input and display the result of addition, subtraction, multiplication, division, and modulus.
 
 //        Scanner scanner = new Scanner(System.in);
-//
-//        // Input two numbers
-//        System.out.print("Enter the first number: ");
-//        double num1 = scanner.nextDouble();
-//
-//        System.out.print("Enter the second number: ");
-//        double num2 = scanner.nextDouble();
-//
-//        // Perform operations
-//        double sum = num1 + num2;
-//        double difference = num1 - num2;
-//        double product = num1 * num2;
-//
-//        // Handle division and modulus safely
-//        if (num2 != 0) {
-//            double quotient = num1 / num2;
-//            double remainder = num1 % num2;
-//
-//            // Display results
-//            System.out.println("Addition: " + sum);
-//            System.out.println("Subtraction: " + difference);
-//            System.out.println("Multiplication: " + product);
-//            System.out.println("Division: " + quotient);
-//            System.out.println("Modulus: " + remainder);
-//        } else {
-//            System.out.println("Addition: " + sum);
-//            System.out.println("Subtraction: " + difference);
-//            System.out.println("Multiplication: " + product);
-//            System.out.println("Division and modulus by zero are not allowed.");
-//        }
-//
+
+        // Input two numbers
+        System.out.print("Enter the first number: ");
+        double num11 = scanner.nextDouble();
+
+        System.out.print("Enter the second number: ");
+        double num22 = scanner.nextDouble();
+
+        // Perform operations
+        double sumfinal = num11 + num22;
+        double differencefinal = num11 - num22;
+        double productfinal = num11 * num22;
+
+        // Handle division and modulus safely
+        if (num22 != 0) {
+            double quotientfinal = num11 / num22;
+            double remainderfinal = num11 % num22;
+
+            // Display results
+            System.out.println("Addition: " + sumfinal);
+            System.out.println("Subtraction: " + differencefinal);
+            System.out.println("Multiplication: " + productfinal);
+            System.out.println("Division: " + quotientfinal);
+            System.out.println("Modulus: " + remainderfinal);
+        } else {
+            System.out.println("Addition: " + sumfinal);
+            System.out.println("Subtraction: " + differencefinal);
+            System.out.println("Multiplication: " + productfinal);
+            System.out.println("Division and modulus by zero are not allowed.");
+        }
+
 //        scanner.close();
 //    }
 
@@ -485,30 +485,27 @@ public class homework2 {
             System.out.println(n);
         }
 
-
         // Challange: Increment and Decrement Operators:
         // Create a program that takes an integer as input and then increments and decrements it by 1, displaying the output at each stage.
 
 //    Scanner scanner = new Scanner(System.in);
-//
-//    // Input an integer
-//        System.out.print("Enter an integer: ");
-//    int numbert = scanner.nextInt();
-//
-//    // Display original value
-//        System.out.println("Original value: " + numbert);
-//
-//    // Increment
-//    number++;
-//        System.out.println("After incrementing by 1: " + numbert);
-//
-//    // Decrement
-//    number--;
-//        System.out.println("After decrementing by 1: " + numbert);
-//
-//        scanner.close();
-//    }
 
+    // Input an integer
+        System.out.print("Enter an integer: ");
+    int numbert = scanner.nextInt();
+
+    // Display original value
+        System.out.println("Original value: " + numbert);
+
+    // Increment
+    number++;
+        System.out.println("After incrementing by 1: " + numbert);
+
+    // Decrement
+    number--;
+        System.out.println("After decrementing by 1: " + numbert);
+
+//        scanner.close();
 
         // Challenge: Assignment and Compound Assignment Operators:
         // Create a Java program that demonstrates the use of each compound assignment operator with integers.
@@ -541,86 +538,81 @@ public class homework2 {
         // Write a program to calculate the price after discount. Take the original price and discount percentage as input. Use compound assignment operator to perform the calculation.
 
 //    Scanner scanner = new Scanner(System.in);
-//
-//    // Input original price and discount percentage
-//        System.out.print("Enter the original price: ");
-//    double price = scanner.nextDouble();
-//
-//        System.out.print("Enter the discount percentage: ");
-//    double discount = scanner.nextDouble();
-//
-//    // Calculate discount amount
-//    double discountAmount = price * discount / 100;
-//
-//    // Apply discount using compound assignment operator
-//    price -= discountAmount;  // same as: price = price - discountAmount
-//
-//    // Display the final price
-//        System.out.println("Price after discount: " + price);
-//
+
+    // Input original price and discount percentage
+        System.out.print("Enter the original price2: ");
+    double price2 = scanner.nextDouble();
+
+        System.out.print("Enter the discount percentage: ");
+    double discount = scanner.nextDouble();
+
+    // Calculate discount amount
+    double discountAmount2 = price2 * discount / 100;
+
+    // Apply discount using compound assignment operator
+    price -= discountAmount2;  // same as: price2 = price2 - discountAmount2
+
+    // Display the final price
+        System.out.println("Price2 after discount2: " + price2);
+
 //        scanner.close();
-//}
 
         // Challenge: Relational Operators:
         // Write a Java program that takes two numbers from the user and uses relational operators to display whether the first number is greater than, less than, or equal to the second number.
 
 //    Scanner scanner = new Scanner(System.in);
-//
-//    // Input two numbers
-//        System.out.print("Enter the first number: ");
-//    double num1 = scanner.nextDouble();
-//
-//        System.out.print("Enter the second number: ");
-//    double num2 = scanner.nextDouble();
-//
-//    // Compare using relational operators
-//        if (num1 > num2) {
-//        System.out.println("The first number is greater than the second number.");
-//    } else if (num1 < num2) {
-//        System.out.println("The first number is less than the second number.");
-//    } else {
-//        System.out.println("Both numbers are equal.");
-//    }
-//
+
+    // Input two numbers
+        System.out.print("Enter the first number: ");
+    double num111 = scanner.nextDouble();
+
+        System.out.print("Enter the second number: ");
+    double num222 = scanner.nextDouble();
+
+    // Compare using relational operators
+        if (num111 > num222) {
+        System.out.println("The first number is greater than the second number.");
+    } else if (num111 < num222) {
+        System.out.println("The first number is less than the second number.");
+    } else {
+        System.out.println("Both numbers are equal.");
+    }
 //        scanner.close();
-//}
 
         // Challenge: Relational Operators:
         // Create a program that checks if a user entered number is within a specific range (e.g., 1-100). Use relational operators for the checks.
 
 //    Scanner scanner = new Scanner(System.in);
-//
-//    // Define the range
-//    int lowerLimit = 1;
-//    int upperLimit = 100;
-//
-//    // Input a number
-//        System.out.print("Enter a number: ");
-//    int numberd = scanner.nextInt();
-//
-//    // Check if the number is within the range using relational operators
-//        if (numberd >= lowerLimit && numberd <= upperLimit) {
-//        System.out.println("The numberd is within the range " + lowerLimit + " to " + upperLimit + ".");
-//    } else {
-//        System.out.println("The numberd is outside the range " + lowerLimit + " to " + upperLimit + ".");
-//    }
-//
-//        scanner.close();
-//}
 
+    // Define the range
+    int lowerLimit = 1;
+    int upperLimit = 100;
+
+    // Input a number
+        System.out.print("Enter a number: ");
+    int numberII = scanner.nextInt();
+
+    // Check if the number is within the range using relational operators
+        if (numberII >= lowerLimit && numberII <= upperLimit) {
+        System.out.println("The numberd is within the range " + lowerLimit + " to " + upperLimit + ".");
+    } else {
+        System.out.println("The numberd is outside the range " + lowerLimit + " to " + upperLimit + ".");
+    }
+
+//        scanner.close();
 
         // Challenge - Numeric Promotion:
         //Write a program where you perform operations between an integer and a double. Display the result and discuss why it is in that format (due to Numeric Promotion).
 
 
-                int intValue = 10;
-                double doubleValue = 3.5;
+        int intValue = 10;
+        double doubleValue = 3.5;
 
-                // Arithmetic operation
-                double resultfinal = intValue + doubleValue;
+        // Arithmetic operation
+        double resultfinal = intValue + doubleValue;
 
-                // Output the result
-                System.out.println("int + double = " + resultfinal);
+        // Output the result
+        System.out.println("int + double = " + resultfinal);
 
         //Create a program that takes two byte values, adds them together, and stores the result in a byte variable. Explain why the result is or is not what you'd expect, based on the rules of numeric promotion.
 
@@ -634,9 +626,9 @@ public class homework2 {
                 byte byte20 = scanner.nextByte();
 
                 // Add and cast result back to byte
-                byte sumfinal = (byte) (byte10 + byte20);  // Explicit cast required!
+                byte sumfinal1 = (byte) (byte10 + byte20);  // Explicit cast required!
 
-                System.out.println("Sum (as byte): " + sumfinal);
+                System.out.println("Sum (as byte): " + sumfinal1);
 
 //                scanner.close();
     }
