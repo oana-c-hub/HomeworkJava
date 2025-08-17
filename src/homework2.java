@@ -362,29 +362,28 @@ public class homework2 {
         }
 
 //        scanner.close();
-//    }
+
 
         // Challange: Binary Arithmetic Operators:
         // Write a program that calculates the area of a rectangle. Take the length and breadth as inputs.
 
 //        Scanner scanner = new Scanner(System.in);
-//
-//        // Input length and breadth
-//        System.out.print("Enter the length of the rectangle: ");
-//        double length = scanner.nextDouble();
-//
-//        System.out.print("Enter the breadth of the rectangle: ");
-//        double breadth = scanner.nextDouble();
-//
-//        // Calculate area
-//        double area = length * breadth;
-//
-//        // Display the result
-//        System.out.println("The area of the rectangle is: " + area);
-//
+
+        // Input length and breadth
+        System.out.print("Enter the length of the rectangle: ");
+        double length = scanner.nextDouble();
+
+        System.out.print("Enter the breadth of the rectangle: ");
+        double breadth = scanner.nextDouble();
+
+        // Calculate area
+        double area = length * breadth;
+
+        // Display the result
+        System.out.println("The area of the rectangle is: " + area);
+
 //        scanner.close();
-//    }
-//}
+
 
         // Challange: Unary Operators:
         // Create a Java program where you increment and decrement the same variable. Display the value of the variable after each operation.
@@ -407,66 +406,65 @@ public class homework2 {
         // Write a program that reverses the sign of an entered integer using unary minus operator.
 
 //        Scanner scanner = new Scanner(System.in);
-//
-//        // Input an integer
-//        System.out.print("Enter an integer: ");
-//        int numberj = scanner.nextInt();
-//
-//        // Reverse the sign using unary minus
-//        int reversed = -numberj;
-//
-//        // Display the result
-//        System.out.println("The numberj with reversed sign is: " + reversed);
-//
+
+        // Input an integer
+        System.out.print("Enter an integer: ");
+        int numberIII = scanner.nextInt();
+
+        // Reverse the sign using unary minus
+        int reversed = -numberIII;
+
+        // Display the result
+        System.out.println("The numberIII with reversed sign is: " + reversed);
+
 //        scanner.close();
-//                }
+
 
         // Challange: Logical Complement and Negation Operators:
         // Write a program to check if a number is positive or negative using logical complement operator.
 
 //    Scanner scanner = new Scanner(System.in);
-//
-//    // Input a number
-//        System.out.print("Enter a number: ");
-//    int numbero = scanner.nextInt();
-//
-//    // Use logical complement to check if the number is negative
-//    boolean isNegative = numbero < 0;
-//
-//    // Using ! to check if the number is NOT negative (i.e., positive or zero)
-//        if (!isNegative) {
-//        if (numbero == 0) {
-//            System.out.println("The numbero is zero.");
-//        } else {
-//            System.out.println("The numbero is positive.");
-//        }
-//    } else {
-//        System.out.println("The numbero is negative.");
-//    }
-//
+
+    // Input a number
+        System.out.print("Enter a number: ");
+    int numberIV = scanner.nextInt();
+
+    // Use logical complement to check if the number is negative
+    boolean isNegative = numberIV < 0;
+
+    // Using ! to check if the number is NOT negative (i.e., positive or zero)
+        if (!isNegative) {
+        if (numberIV == 0) {
+            System.out.println("The numberIv is zero.");
+        } else {
+            System.out.println("The numberIV is positive.");
+        }
+    } else {
+        System.out.println("The numberIV is negative.");
+    }
+
 //        scanner.close();
-//}
 
         // Challange: Logical Complement and Negation Operators:
         // Write a Java program that takes two boolean inputs from a user. Apply the logical negation operator (!) to each and print the result.
 
 //    Scanner scanner = new Scanner(System.in);
 
-//    // Input two boolean values
-//        System.out.print("Enter the first boolean value (true/false): ");
-//    boolean bool1 = scanner.nextBoolean();
-//
-//        System.out.print("Enter the second boolean value (true/false): ");
-//    boolean bool2 = scanner.nextBoolean();
-//
-//    // Apply logical negation
-//    boolean notBool1 = !bool1;
-//    boolean notBool2 = !bool2;
-//
-//    // Print results
-//        System.out.println("Negation of first boolean: " + notBool1);
-//        System.out.println("Negation of second boolean: " + notBool2);
-//
+    // Input two boolean values
+        System.out.print("Enter the first boolean value (true/false): ");
+    boolean bool11 = scanner.nextBoolean();
+
+        System.out.print("Enter the second boolean value (true/false): ");
+    boolean bool22 = scanner.nextBoolean();
+
+    // Apply logical negation
+    boolean notBool11 = !bool11;
+    boolean notBool22 = !bool22;
+
+    // Print results
+        System.out.println("Negation of first boolean: " + notBool11);
+        System.out.println("Negation of second boolean: " + notBool22);
+
 //        scanner.close();
 //}
 
