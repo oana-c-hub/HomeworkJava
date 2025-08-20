@@ -160,8 +160,6 @@ public class homework2 {
                     System.out.println("The first number is equal to the second number.");
                 }
 
-//                scanner.close();
-
 //        // 7. Write a program where you perform operations between an integer and a double. Display the result.
 
                 int intNumber = 10;
@@ -189,8 +187,6 @@ public class homework2 {
 
         // 8. Create a program that takes two byte values, adds them together, and stores the result in a byte variable.
 
-//                Scanner scanner = new Scanner(System.in);
-
                 // Read two byte values from user
                 System.out.print("Enter the first byte value: ");
                 byte byte1 = scanner.nextByte();
@@ -204,11 +200,8 @@ public class homework2 {
                 // Display the result
                 System.out.println("Sum of the two byte values: " + result);
 
-//                scanner.close();
 
         // 9. Write a program that calculates the area of a rectangle. Take the length and breadth as inputs.
-
-//                Scanner scanner = new Scanner(System.in);
 
                 // Take length and breadth as input
                 System.out.print("Enter the length of the rectangle: ");
@@ -223,11 +216,7 @@ public class homework2 {
                 // Display result
                 System.out.println("The area of the rectangle is: " + area);
 
-//                scanner.close();
-
         //10. Write a program that reverses the sign of an entered integer using unary minus operator.
-
-//                Scanner scanner = new Scanner(System.in);
 
                 // Take integer input
                 System.out.print("Enter an integer: ");
@@ -239,11 +228,7 @@ public class homework2 {
                 // Display result
                 System.out.println("The number with reversed sign is: " + reversedSign);
 
-//                scanner.close();
-
         //11. Write a Java program that takes two boolean inputs from a user. Apply the logical negation operator (!) to each and print the result.
-
-//                Scanner scanner = new Scanner(System.in);
 
                 // Take two boolean inputs
                 System.out.print("Enter the first boolean value (true/false): ");
@@ -260,11 +245,7 @@ public class homework2 {
                 System.out.println("Negation of first boolean: " + notBool1);
                 System.out.println("Negation of second boolean: " + notBool2);
 
-//                scanner.close();
-
         //12. Create a program that takes an integer as input and then increments and decrements it by 1, displaying the output at each stage.
-
-//                Scanner scanner = new Scanner(System.in);
 
                 // Take integer input
                 System.out.print("Enter an integer: ");
@@ -281,11 +262,8 @@ public class homework2 {
                 numberz--; // same as number = number - 1
                 System.out.println("After decrement: " + numberz);
 
-//                scanner.close();
 
         //13. Write a program to calculate the price after discount. Take the original price and discount percentage as input. Use compound assignment operator to perform the calculation.
-
-//                Scanner scanner = new Scanner(System.in);
 
                 // Take inputs
                 System.out.print("Enter the original price: ");
@@ -303,11 +281,7 @@ public class homework2 {
                 // Display final price
                 System.out.println("Price after discount: " + price);
 
-//                scanner.close();
-
         //14. Create a program that checks if a user entered number is within a specific range (e.g., 1-100). Use relational operators for the checks.
-
-//                Scanner scanner = new Scanner(System.in);
 
                 // Define the range
                 int lowerBound = 1;
@@ -324,12 +298,8 @@ public class homework2 {
                     System.out.println("The numberq is outside the range of " + lowerBound + " to " + upperBound + ".");
                 }
 
-//                scanner.close();
-
         // Challange: Binary Arithmetic Operators:
         // Write a Java program to take two numbers as input and display the result of addition, subtraction, multiplication, division, and modulus.
-
-//        Scanner scanner = new Scanner(System.in);
 
         // Input two numbers
         System.out.print("Enter the first number: ");
@@ -361,29 +331,21 @@ public class homework2 {
             System.out.println("Division and modulus by zero are not allowed.");
         }
 
-//        scanner.close();
-
-
         // Challange: Binary Arithmetic Operators:
         // Write a program that calculates the area of a rectangle. Take the length and breadth as inputs.
 
-//        Scanner scanner = new Scanner(System.in);
-
         // Input length and breadth
         System.out.print("Enter the length of the rectangle: ");
-        double length = scanner.nextDouble();
+        double length2 = scanner.nextDouble();
 
         System.out.print("Enter the breadth of the rectangle: ");
-        double breadth = scanner.nextDouble();
+        double breadth2 = scanner.nextDouble();
 
         // Calculate area
-        double area = length * breadth;
+        double area2 = length2 * breadth2;
 
         // Display the result
-        System.out.println("The area of the rectangle is: " + area);
-
-//        scanner.close();
-
+        System.out.println("The area of the rectangle is: " + area2);
 
         // Challange: Unary Operators:
         // Create a Java program where you increment and decrement the same variable. Display the value of the variable after each operation.
@@ -405,8 +367,6 @@ public class homework2 {
         // Challange: Unary Operators:
         // Write a program that reverses the sign of an entered integer using unary minus operator.
 
-//        Scanner scanner = new Scanner(System.in);
-
         // Input an integer
         System.out.print("Enter an integer: ");
         int numberIII = scanner.nextInt();
@@ -416,9 +376,6 @@ public class homework2 {
 
         // Display the result
         System.out.println("The numberIII with reversed sign is: " + reversed);
-
-//        scanner.close();
-
 
         // Challange: Logical Complement and Negation Operators:
         // Write a program to check if a number is positive or negative using logical complement operator.
@@ -443,12 +400,8 @@ public class homework2 {
         System.out.println("The numberIV is negative.");
     }
 
-//        scanner.close();
-
         // Challange: Logical Complement and Negation Operators:
         // Write a Java program that takes two boolean inputs from a user. Apply the logical negation operator (!) to each and print the result.
-
-//    Scanner scanner = new Scanner(System.in);
 
     // Input two boolean values
         System.out.print("Enter the first boolean value (true/false): ");
@@ -464,9 +417,6 @@ public class homework2 {
     // Print results
         System.out.println("Negation of first boolean: " + notBool11);
         System.out.println("Negation of second boolean: " + notBool22);
-
-//        scanner.close();
-//}
 
         // Challange: Increment and Decrement Operators:
         // Write a Java program that uses both the increment (++) and decrement (--) operators in a loop to count up to 10 and then back down to 1.
@@ -486,8 +436,6 @@ public class homework2 {
         // Challange: Increment and Decrement Operators:
         // Create a program that takes an integer as input and then increments and decrements it by 1, displaying the output at each stage.
 
-//    Scanner scanner = new Scanner(System.in);
-
     // Input an integer
         System.out.print("Enter an integer: ");
     int numbert = scanner.nextInt();
@@ -502,8 +450,6 @@ public class homework2 {
     // Decrement
     number--;
         System.out.println("After decrementing by 1: " + numbert);
-
-//        scanner.close();
 
         // Challenge: Assignment and Compound Assignment Operators:
         // Create a Java program that demonstrates the use of each compound assignment operator with integers.
@@ -535,8 +481,6 @@ public class homework2 {
         // Challenge: Assignment and Compound Assignment Operators:
         // Write a program to calculate the price after discount. Take the original price and discount percentage as input. Use compound assignment operator to perform the calculation.
 
-//    Scanner scanner = new Scanner(System.in);
-
     // Input original price and discount percentage
         System.out.print("Enter the original price2: ");
     double price2 = scanner.nextDouble();
@@ -553,12 +497,8 @@ public class homework2 {
     // Display the final price
         System.out.println("Price2 after discount2: " + price2);
 
-//        scanner.close();
-
         // Challenge: Relational Operators:
         // Write a Java program that takes two numbers from the user and uses relational operators to display whether the first number is greater than, less than, or equal to the second number.
-
-//    Scanner scanner = new Scanner(System.in);
 
     // Input two numbers
         System.out.print("Enter the first number: ");
@@ -575,12 +515,9 @@ public class homework2 {
     } else {
         System.out.println("Both numbers are equal.");
     }
-//        scanner.close();
 
         // Challenge: Relational Operators:
         // Create a program that checks if a user entered number is within a specific range (e.g., 1-100). Use relational operators for the checks.
-
-//    Scanner scanner = new Scanner(System.in);
 
     // Define the range
     int lowerLimit = 1;
@@ -597,8 +534,6 @@ public class homework2 {
         System.out.println("The numberd is outside the range " + lowerLimit + " to " + upperLimit + ".");
     }
 
-//        scanner.close();
-
         // Challenge - Numeric Promotion:
         //Write a program where you perform operations between an integer and a double. Display the result and discuss why it is in that format (due to Numeric Promotion).
 
@@ -613,8 +548,6 @@ public class homework2 {
         System.out.println("int + double = " + resultfinal);
 
         //Create a program that takes two byte values, adds them together, and stores the result in a byte variable. Explain why the result is or is not what you'd expect, based on the rules of numeric promotion.
-
-//                Scanner scanner = new Scanner(System.in);
 
                 // Read two byte values
                 System.out.print("Enter first byte value: ");
